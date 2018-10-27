@@ -1,0 +1,113 @@
+.body{
+	background-color: #f1f1f1;
+}
+
+.container{
+	/*width: 80%;*/
+	margin: auto;
+	overflow: hidden;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	background: #ffffff;
+	color: black;
+	padding-top: 30px;
+	min-height: 70px;
+	/*border-bottom: #f1f1f1 3px solid;*/
+}
+
+header a, a:link, a:hover{
+	color: black;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 6px 40px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #f44336;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+header li{
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header nav{
+	float: right;
+	margin-top: 10px;
+}
+
+header #title{
+	float: left;
+}
+
+header #title h1{
+	margin: 0;
+}
+
+#btn{
+	border-radius: 20px;
+	background: #FC9C09;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.table{
+	background-color: #ffffff;
+}
+
+.table-hover tbody tr:hover td{
+	background: #f44336;
+	cursor: pointer;
+}
+
+.mypanel{
+	margin-top: 30px;
+	background-color: #FC9C09;
+	padding: 20px;
+}
+
+#formId label{
+	display: inline-block;
+	width: 100px;
+	text-align: right;
+}
+#new_submit{
+	padding-left: 100px;
+}
+#formId .one{
+	margin-top: 30px;
+}
+#formId div{
+	margin-bottom: 5px;
+}
+textarea{
+	vertical-align: top;
+	height: 5em;
+}
+
+.error{
+	display: none;
+	margin-left: 10px;
+}		
+
+.error_show{
+	color: red;
+	margin-left: 10px;
+	font-size: 11px;
+    font-style: italic;
+}
+
+input.invalid, textarea.invalid{
+	border: 2px solid #B80405;
+}
+
+input.valid, textarea.valid{
+	border: 2px solid #5AAF14;
+}
